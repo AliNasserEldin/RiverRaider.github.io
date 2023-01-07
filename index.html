@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.108.0">
+    <title>Album example · Bootstrap v5.3</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
+
+    
+
+    
+
+<link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane-engines-fill" viewBox="0 0 16 16">
+          <path d="M8 0c-.787 0-1.292.592-1.572 1.151A4.347 4.347 0 0 0 6 3v3.691l-2 1V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.191l-1.17.585A1.5 1.5 0 0 0 0 10.618V12a.5.5 0 0 0 .582.493l1.631-.272.313.937a.5.5 0 0 0 .948 0l.405-1.214 2.21-.369.375 2.253-1.318 1.318A.5.5 0 0 0 5.5 16h5a.5.5 0 0 0 .354-.854l-1.318-1.318.375-2.253 2.21.369.405 1.214a.5.5 0 0 0 .948 0l.313-.937 1.63.272A.5.5 0 0 0 16 12v-1.382a1.5 1.5 0 0 0-.83-1.342L14 8.691V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v.191l-2-1V3c0-.568-.14-1.271-.428-1.849C9.292.591 8.787 0 8 0Z"/>
+        </svg>        
+        <strong>RIVER RAIDER</strong>
+      </a>
+        
+    
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">RIVER RAIDER</h1>
+        <p class="lead text-muted">This is a remake for rive raider made by me, the original game was made by Activision corp for atari (1982). look below kindly for more details.</p>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./assets/source/riverRaid1.png"  alt="...">
+            <div class="card-body">
+              <p class="card-text">the game starts with a list of game modes(normal, easy, hacker), instructions, information and exit button</p>
+              <p class="card-text">easy mode : ships and planes are moving vertically</p>
+              <p class="card-text">normal mode : ships and planes are moving horizontally and vertically</p>
+              <p class="card-text">hacker mode : you can't die made to test the game and understand it's rules better</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./assets/source/riverRaid2.png"  alt="...">
+              <div class="card-body">
+              <p class="card-text">you must give your name to let the game memorize the heightest score and it's owner.</p>
+              <p class="card-text">game also pops up a window to greet you with your name before it starts.</p>
+              
+              <div class="d-flex justify-content-between align-items-center">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./assets/source/riverRaid3.png"  alt="...">
+            <div class="card-body">
+              <p class="card-text">top left the screen the game lists all information that concerns you(your score, timer, your fuel status, tour lives)</p>
+              <p class="card-text">ships and planes positions are generated randomly in easy mode</p>
+              <p class="card-text">whenever a player blows a fuel tank the fuel tank destoys the nearby ships and planes</p>
+              <p class="card-text">after your score exceeds 2000 your lives will be increased by 1</p>
+              <p class="card-text">whenever you hit plane or ship with plane's body your lives are decreased by 1</p>
+
+              <div class="d-flex justify-content-between align-items-center">
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div>
+              <video width="100%"  autoplay muted loop>
+                <source src="./assets/source/Anim Test.mp4" type="video/mp4">
+                </div>
+            <div class="card-body">
+              <p class="card-text">River sides are generated randomly with the (ships, planes, fuel tanks) in mind.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <video width="100%"  autoplay muted loop>
+              <source src="./assets/source/normalGame.mp4" type="video/mp4">
+              </div>
+            <div class="card-body">
+              <p class="card-text">Short gameplay from the normal mode which reveals alot of the game's details</p>
+              
+              <div class="d-flex justify-content-between align-items-center">
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            <div>
+              <video width="100%"  autoplay muted loop>
+                <source src="./assets/source/River raid 2023-01-06 21-48-08_Trim.mp4" type="video/mp4">
+                </div>
+            <div class="card-body">
+              <p class="card-text">Short gameplay from the easy mode which reveals alot of the game's details</p>              <div class="d-flex justify-content-between align-items-center">
+                
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+
+</main>
+
+<footer class="text-muted py-5">
+      <a href="#" class = "btn btn-primary" style="margin :20px;">Back to top</a>
+      
+</footer>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
